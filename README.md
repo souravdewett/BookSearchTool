@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * `What would you add to your solution if you had more time?`
 * ` If you didn't spend much time on the coding test, then use this as an opportunity toexplain what you would add.`
 
-Answer: I spent like 3 hours on building the logic. Spent between 2 to 3 hours for CSS.
+`I spent like 3 hours on building the logic. Spent between 2 to 3 hours for CSS.`
 * `If I had more time I would have added an option for read later as in a library like this there is always a chance that you like multiple books and then you forget what was the name of the others that button would have made it very useful.`
 
 ### `What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.`
