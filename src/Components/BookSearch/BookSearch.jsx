@@ -65,11 +65,6 @@ class BookSearch extends Component {
               placeholder="Enter the book Name"
               className="input-field"
             />
-            <center>
-              <button className="margin-top-16 btn center" onClick={this.onSubmit}>
-              <span>Search it up!!!</span>
-              </button>
-            </center>
             <div className="flex">
               <button className="margin-left-16 margin-top-16 btn" onClick={() => {
                   this.setState({ bookName: this.state.bookName.sort((a, b) => a.title.localeCompare(b.title)) });
@@ -82,7 +77,14 @@ class BookSearch extends Component {
                 }}>
                   <span>Sort By date</span>
               </button>
+              <div className="btn-alignment">
+                <button className="margin-left-16 margin-top-16 btn" onClick={this.onSubmit}>
+                        <span>Search it up!!!</span>
+                </button>
+              </div>
             </div>
+            
+           
             <div className="user-contanier">
                 <h4 className="width-25">Cover:</h4>
                 <h4 className="width-25">Title:</h4>

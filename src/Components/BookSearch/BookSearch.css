@@ -52,6 +52,12 @@
   transition: 0.5s;
 }
 
+.btn-alignment{
+    width: 58%;
+    justify-content: center;
+    display: flex;
+}
+
 .btn:hover span {
   padding-right: 25px;
 }

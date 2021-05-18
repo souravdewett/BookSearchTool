@@ -1,70 +1,59 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `How long did you spend on the coding assignment?`
+* `What would you add to your solution if you had more time?`
+* ` If you didn't spend much time on the coding test, then use this as an opportunity toexplain what you would add.`
 
-### `npm test`
+Answer: I spent like 3 hours on building the logic. Spent between 2 to 3 hours for CSS.
+* `If I had more time I would have added an option for read later as in a library like this there is always a chance that you like multiple books and then you forget what was the name of the others that button would have made it very useful.`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.`
+* `Optional chaining is the coolest feature i've seen in javascript. i didn't use it in this app but i've been using it in the other projects.`
 
-### `npm run build`
+`i used it like this : `
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```Patient.?userProfile?.email```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`If patient is null or userProfile is null it will return null. This was when i was debugging becuase the authentication system was failing`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `How would you track down a performance issue in production? Have you ever had to do this?`
+`i have indeed tracked it down. So i built a booking system and it had to generate some calendar blocks to show the doctor's availability. what was happening is that everytime the user clicks on a time slot to book it. It would cause the blocks to generate again, and the client machine's fan boosted quite a bit. i tracked it using chrome's performace tab and also some of the props were being moved around unnecessarily, so i used `
 
-### `npm run eject`
+```React.memo``` `to fix that`. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `How would you improve the API that you just used?`
+`I used open library books api in this project. The data is very inconsistent in this. The date is not in the same format always, some images are not there and it shows a blank image that can't be detected that whether there is no image or whether it's not showing up, i would've added a "No image" sign if no image was available for the image. Documentation should be extremely easy as well.`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Please describe yourself using correctly formatted JSON.`
+```
+{
+  "id": 1,
+  "first_name": "Sourav",
+  "last_name": "Dewett",
+  "date_of_birth": "January 20, 1998",
+  "attributes": [
+    "Calm",
+    "Curioius",
+    "Observant",
+    "Gamer",
+    "Foody"
+  ],
+  "interests": [
+    "iOS Development",
+    "Pose Estimation Apps",
+    "PS5 games"
+  ],
+  "dreams": [
+    "live on the moon",
+    "buy a lambo"
+  ],
+  "belief": "Better one hour early than one minute late"
+}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
