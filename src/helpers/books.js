@@ -19,6 +19,9 @@ export function getSortedBooks(books, sortCriterion) {
     case 'publishDate':
       compareFn = (a, b) => getBookPublishDate(a) - getBookPublishDate(b);
       break;
+    case 'title':
+      compareFn = ((a, b) => a.title.localeCompare(b.title));
+      break;
     default:
       return books;
   }

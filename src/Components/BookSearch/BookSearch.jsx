@@ -77,11 +77,7 @@ class BookSearch extends Component {
           <button
             className="margin-left-16 margin-top-16 btn"
             onClick={() => {
-              this.setState({
-                books: this.state.books.sort((a, b) =>
-                  a.title.localeCompare(b.title)
-                ),
-              });
+              this.setState({ sortCriterion: 'title' });
             }}
           >
             <span>Sort By title </span>
