@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function fetchBooksSearch(searchTerm) {
-  const url = "http://openlibrary.org/search.json?title=" + searchTerm;
+  const url = "https://openlibrary.org/search.json?title=" + searchTerm;
     const res = await axios.get(url);
     return res.data.docs;
 }
