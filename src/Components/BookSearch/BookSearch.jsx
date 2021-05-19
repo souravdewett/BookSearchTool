@@ -100,7 +100,7 @@ class BookSearch extends Component {
             </button>
           </div>
         </div>
-
+        
         <div className="user-contanier">
           <h4 className="width-25">Cover:</h4>
           <h4 className="width-25">Title:</h4>
