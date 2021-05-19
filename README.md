@@ -9,8 +9,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Link to live project: https://vigorous-khorana-04019c.netlify.app/
 
 ### `How long did you spend on the coding assignment?`
-* `What would you add to your solution if you had more time?`
-* ` If you didn't spend much time on the coding test, then use this as an opportunity toexplain what you would add.`
+ `What would you add to your solution if you had more time?`
+ ` If you didn't spend much time on the coding test, then use this as an opportunity toexplain what you would add.`
 
 * I spent like 3 hours on building the logic. Spent between 2 to 3 hours for CSS.
 * If I had more time I would have added an option for read later as in a library like this there is always a chance that you like multiple books and then you forget what was the name of the others that button would have made it very useful.
@@ -18,7 +18,7 @@ Link to live project: https://vigorous-khorana-04019c.netlify.app/
 ### `What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.`
 * `Optional chaining is the coolest feature i've seen in javascript. i didn't use it in this app but i've been using it in the other projects.`
 
-i used it like this : 
+I used it like this : 
 
 ```Patient.?userProfile?.email```
 
