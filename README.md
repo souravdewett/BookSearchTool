@@ -6,6 +6,8 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Link to live project: https://vigorous-khorana-04019c.netlify.app/
+
 ### `How long did you spend on the coding assignment?`
 * `What would you add to your solution if you had more time?`
 * ` If you didn't spend much time on the coding test, then use this as an opportunity toexplain what you would add.`
